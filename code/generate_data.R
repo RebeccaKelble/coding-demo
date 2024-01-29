@@ -23,5 +23,5 @@ plot(pop_size,
      ylab = "Population size")
 
 # Save data
-filename <- "/data/popdata.Rdata"
+filename <- "data/popdata.Rdata"
 save(pop_size, file = filename)
